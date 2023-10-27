@@ -1,0 +1,44 @@
+-Color Palette-
+
+#0076B5
+#1A5E82
+#203E4F
+#1F2C33
+#292F33
+
+-Bio-
+
+Hi. My name is Matthew Norris and I'm currently studying to become a full-stack web and app developer. I 
+am a husband and father of two girls and one dog. I enjoy playing music, technology, and cooking.
+I am a constant "tinkerer", with a willingness to learn a new skill or gain more knowledge. 
+
+-Background-
+
+I have 16 years experience in consruction & maintenance in the Oil & Gas Industry, but have found a
+new love in front and back-end web development.
+
+-Skills-
+
+• HTML 5
+• CSS 3
+• Bootstrap
+
+-Soft Skills-
+
+• Problem Solving
+
+-Projects-
+
+• TinDog
+• MoveMe
+• Mondrian Project
+
+-Contact Me-
+
+• Contact Form
+
+-Footer-
+
+• Facebook Link
+• Instagram Link
+• LinkedIn Profile

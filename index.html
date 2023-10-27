@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Norris Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <div class="container col me-auto">
+                    <img src="./assets/Logo Light.svg" alt="logo" height="50" class="ms-2 me-3">
+                    <span class="navbar-brand">Matthew Norris</span>
+                </div>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarsExample03">
+                    <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero rounded-3 my-5 container">
+        <div class="container p-lg-5 py-3">
+            <div class="row align-items-start">
+                <div class="col-lg-6">
+                    <img src="./assets/IMG_2221.jpeg" class="d-block mx-lg-auto img-fluid rounded-3 my-3 my-lg-0"
+                        alt="family picture" width="400" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-lg-1 mb-3 text-light">HI!</h1>
+                    <p class="lead text-light">My name is Matthew Norris and I'm currently studying to become a
+                        full-stack web and
+                        app developer. I
+                        am a husband, father of two girls and one dog. I enjoy playing music, technology, and
+                        cooking.
+                        I am a constant "tinkerer", with a willingness to learn a new skill or gain more knowledge.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container rounded-3 text-center shadow-lg py-5">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="fw-bold mb-3">Skills (Learning)</h2>
+                    <ul class="list fs-5">
+                        <li class="list-item">HTML</li>
+                        <hr class="divider">
+                        <li class="list-item">CSS</li>
+                        <hr class="divider">
+                        <li class="list-item">Javascript</li>
+                        <hr class="divider">
+                        <li class="list-item">Dart</li>
+                        <hr class="divider">
+                        <li class="list-item">Flutter</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mx-auto">
+                    <h2 class="fw-bold mb-3">Background</h2>
+                    <p class="lead">I have 16 years experience in consruction & maintenance in the Oil & Gas Industry,
+                        but have
+                        found a new love in front and back-end web development. The same skills I learned in that
+                        profession can be applied to web and app development.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container projects text-center my-5">
+        <div class="row">
+            <h2 class="fw-bold mb-4">Projects</h2>
+            <div class="col-lg-3 mx-auto project pt-3 rounded-3 mb-4 mb-lg-0">
+                <a href="https://mattsnorris0.github.io/mondrian">
+                    <img src="./assets/Mondrian.jpg" alt="mondrian pic" class="img-fluid rounded-3">
+                    <span class="lead fs-5 fw-normal d-block mt-3 mb-5">Mondrian Project</span>
+                </a>
+            </div>
+            <div class="col-lg-3 mx-auto project pt-3 rounded-3 mb-4 mb-lg-0">
+                <a href="https://mattsnorris0.github.io/move-it">
+                    <img src="./assets/Move It.jpg" alt="move it pic" class="img-fluid rounded-3">
+                    <span class="lead fs-5 fw-normal d-block mt-3 mb-5">Move It Project</span>
+                </a>
+            </div>
+            <div class="col-lg-3 mx-auto project pt-3 rounded-3 mb-4 mb-lg-0">
+                <a href="https://mattsnorris0.github.io/tindog">
+                    <img src="./assets/TinDog.jpg" alt="tindog pic" class="img-fluid rounded-3">
+                    <span class="lead fs-5 fw-normal d-block mt-3 mb-5">TinDog Project</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container p-lg-5 text-center bg-body border rounded-3 shadow-lg">
+            <h2>Contact Me</h2>
+            <p class="col-lg-6 mx-auto mb-4">
+                Feel free to shoot me an email with any questions.
+            </p>
+            <button class="btn btn-primary px-5 mb-5" type="button">
+                Contact Me
+            </button>
+        </div>
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 mt-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-light">© 2023 Matthew Norris, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-light" href="#"><img src="./assets/facebook.png" alt=""></a></li>
+            <li class="ms-3"><a class="text-light" href="#"><img src="./assets/instagram.png" alt=""></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="./assets/linkedin.png" alt=""></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

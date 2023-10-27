@@ -1,0 +1,95 @@
+* {
+    /* font-family: 'proxima nova', sans-serif; */
+    font-family: 'open sans', sans-serif;
+    letter-spacing: .5px
+}
+
+/* body {
+    background-image: url(./assets/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+    background-size: contain;
+} */
+
+.btn-primary {
+    background-color: transparent;
+    color: #1A5E82;
+    border: solid #1A5E82;
+    transition: 400ms;
+}
+
+.btn-outline-secondary {
+    color: #0076B5;
+    border: solid #0076B5;
+    transition: 400ms;
+}
+
+.btn-primary:hover {
+    background-color: #1A5E82;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: #1A5E82;
+    border: solid #1A5E82;
+}
+
+header {
+    background-color: #292F33;
+    color: white
+}
+
+.navbar-toggler {
+    border: solid white;
+}
+
+.hero {
+    background-color: #203E4F;
+}
+
+@media(max-width:576px) {
+    .hero p, h1{
+        font-size: 16px;
+    }
+
+    .about p {
+        font-size: 16px;;
+    }
+
+}
+
+.about h2, p, li {
+    color: #1A5E82;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.divider {
+    color: #292F33;
+    width: 7%;
+    margin: .5em auto;
+}
+
+.projects a {
+    text-decoration: none;
+    color: white;
+}
+
+.projects h2 {
+    color:#1A5E82;
+}
+
+.project {
+    background-color: #203E4F;
+    /* padding-bottom: 10em; */
+}
+
+footer {
+    background-color: #292F33;
+    color: white;
+}
+
+.contact p, h2 {
+    color:#292F33;
+}
